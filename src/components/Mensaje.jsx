@@ -1,4 +1,5 @@
 export const Mensaje = ({ children, grid = null }) => {
+  if (!children) return
   return (
     <div className='message'>
       {children}
